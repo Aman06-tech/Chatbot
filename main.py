@@ -262,9 +262,6 @@ if __name__=="__main__":
                     speak("I didnt understand your response")
                     speak("Gooodbye , have a nice day sir")     
 
-            elif 'watch ipl' or 'ipl' in query:
-                webbrowser.open("https://www.jiocinema.com/")
-                break
 
             elif 'netflix' in query:
                 webbrowser.open("https://www.netflix.com")
